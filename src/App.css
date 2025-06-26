@@ -1,0 +1,128 @@
+
+.head{
+    display: grid;
+    margin-left: 20px;
+    grid-template-columns: 50% 50%;
+    font-size: larger;
+    color: orangered;
+    margin-top: 25px;
+}
+.header{
+  color: black;
+  display: grid;
+  text-align: center;
+  grid-template-columns: 15% 20% 15% 22% 13% 15%;
+}
+.navbar{
+  display: grid;
+  grid-template-columns:  75% 25% ;
+  background-color: black;
+  margin-top: 15px;
+  height: 50px;
+  font-size: larger;
+  
+}
+.navbar-1{
+  display: grid;
+  grid-template-columns: repeat(7,1fr);
+  color: white;
+  text-align: center;
+  margin-top: 15px;
+
+}
+.navbar-2{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  margin-right: 30px;
+  text-align: center;
+  color: white;
+}
+.navbar-2 section{
+    margin-top: 15px;
+}
+h3{
+  font-size: x-large;
+}
+div button{
+  border-radius: 40px;
+  background: orangered;
+  font-size: large;
+  color: white;
+  margin: 6px 6px;
+}
+a{
+  text-decoration: none;
+}
+.footer{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  background-color: whitesmoke;
+}
+.footer h3,section{
+  margin-left: 20px;
+}
+.hero{
+  width: 98%;
+  border-radius: clamp(8px, 8px + 2vw, 24px);
+}
+.Heading{
+  text-align: center;
+  font-size: larger;
+  font-size: 3rem;
+
+}
+.Heading{
+}
+.btn{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.btn button{
+  padding: 10px;
+}
+.blog_2 p{
+  text-align: left;
+}
+.blog_2 h2{
+  font-size: 2.7rem;
+
+}
+.blog_2{
+  margin-bottom: 60px;
+}
+.blog_3{
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.blog_3 section{
+  margin-right: 80px;
+}
+.blog_3 p{
+  text-align: left;
+}
+.icons{
+  margin-top: 30px;
+  font-size: xx-large;
+}
+.blog_4{
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.blog_4 h3 p {
+  top: 200px;
+  text-align: center;
+}
+.blog_4 img{
+  border-radius: clamp(8px, 8px + 2vw, 24px);
+  width: 80%;
+}
+
+.phone{
+  width: 100%;
+  border-radius: clamp(8px, 8px + 2vw, 24px);
+}
+p{
+  text-align: center;
+}
+
+
